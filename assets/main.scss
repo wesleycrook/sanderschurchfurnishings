@@ -1,0 +1,301 @@
+---
+# Main SCSS used to overwrite Jekyll default
+---
+
+/*Main.css*/
+
+/*-------------------------------------
+HTML
+--------------------------------------*/
+
+html{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color:#93070a;
+    background-color:#580000;
+    }
+    
+html.iframed{
+    background-color:#fff;
+}
+ 
+body{
+    border:1px solid #fff;
+    width:958px;
+    margin:20px auto 50px;
+}
+    
+body.iframed{
+    margin:0px;
+    width:750px;
+    background-color:#fff;
+}
+    
+h1{
+    font-size:20px;
+    letter-spacing:1px;
+    font-weight:bold;
+    color:#faac30;
+    border-bottom:2px solid #faac30;
+    padding-bottom:5px;
+    margin-bottom:20px;
+    text-transform:uppercase;
+}
+    
+h2{
+    font-size:16px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+    
+h3{
+    color:#faac30;
+    margin-bottom:5px;
+}
+    
+hr{
+    height: 1px;
+    border: 0;
+    width: 100%;
+    background-color: #faac30;
+}
+
+a{
+    color:#fff;
+}
+    
+a:hover{
+    color:#f6a82e;
+}
+
+p{
+    font-size:14px;
+    line-height:21px;
+    margin-bottom:15px;
+}
+    
+p.last{
+    color:#f6a82e;
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:0px;
+}
+    
+p.last a{
+    color:#f6a82e;
+}
+    
+p.last a:hover{
+    color:#93070a;
+}
+    
+p em{
+    font-style:italic;
+}
+    
+p b{
+    font-weight:bold;
+}
+    
+p.note{
+    
+}
+
+ul{
+    list-style:disc outside;
+    padding:10px 0 10px 25px;
+}
+    
+ul li{
+    margin-bottom:5px;
+    font-size:90%;
+}
+    
+.img-right{
+    float:right;
+    margin:0 0 5px 15px;
+}
+    
+.img-left{
+    float:left;
+    margin:0 15px 5px 0;
+}
+    
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+img.theatre-seating{
+    margin-right:55px;
+}
+    
+
+/*-------------------------------------
+HEADER
+--------------------------------------*/
+
+#header{
+    height:133px;
+    background:url('../images/header-bg.jpg') no-repeat;
+}
+
+#logo a{
+    float:left;
+    width:292px;
+    height:91px;
+    display:block;
+    background:url('../images/logo.png');
+    margin:25px 0 0 30px;
+}
+
+    
+/*-------------------------------------
+SLIDESHOW
+--------------------------------------*/
+
+.slideshow {
+    width: 958px;
+    height: 362px;
+    border-bottom: 2px solid #7e6c6c;
+    overflow: hidden;
+    background-color: white;
+}
+
+.slideshow a img {
+    transition: opacity 0.15s;
+    -webkit-transition: opacity 0.15s;
+}
+
+.slideshow a:hover img {
+    opacity: 0.95;
+    transition: opacity 0.15s;
+    -webkit-transition: opacity 0.15s;
+}
+
+/*-------------------------------------
+CHANCEL FURNITURE
+--------------------------------------*/
+
+.img-left.pulpit-sets {
+    border: 1px solid;
+}
+
+/*-------------------------------------
+CANVAS
+--------------------------------------*/
+
+#canvas{
+    background:url('../images/canvas-bg.jpg');
+    border-bottom:4px solid #240000;
+}
+    
+#col-left{
+    width:150px;
+    padding:25px 45px;
+    float:left;
+}
+    
+#col-right{
+    float:right;
+    width:645px;
+    padding:35px 35px 30px;
+}
+    
+#col-right a,
+#iframed a:hover{
+    color:#93070a;
+}
+    
+#col-right a:hover,
+#iframed a{
+    color:#f6a82e;
+}
+    
+#iframed{
+    background-color:#fff;
+    padding:25px;
+}
+    
+#iframed ul{
+    line-height:17px;
+}
+
+/*-------------------------------------
+TABLES
+--------------------------------------*/
+
+table{
+    margin-bottom:20px;
+}
+
+table td{
+    text-align:center;
+    padding:15px;
+    font-size:14px;
+    vertical-align:middle;
+    border:1px solid #efefef;
+}
+
+
+/*-------------------------------------
+iframe
+--------------------------------------*/
+
+iframe{
+    border:1px dashed #999;
+    width:90%;
+    height:1050px;
+    background-color:#efefef;
+    margin-top:10px;
+}
+    
+iframe.contact{
+    padding:25px;
+}
+
+
+/*-------------------------------------
+FOOTER
+--------------------------------------*/
+
+#footer{
+    width:958px;
+    height:116px;
+    background:url('../images/footer-bg.jpg') no-repeat;
+}
+    
+#footer p{
+    color:#f6a82e;
+    font-size:13px;
+    line-height:20px;
+    padding:20px 25px 25px;
+}
+    
+#footer p a{
+    color: #f6a82e;
+}
+    
+#footer p a:hover{
+    color: #fff;
+}
+
+#footer p a.no-under {
+    text-decoration: none;
+}
+
+/*footer-left*/
+
+#footer-left{
+    float:left;
+}
+
+/*footer-col-right*/
+
+#footer-right{
+    float:right;
+    text-align:right;
+}
+

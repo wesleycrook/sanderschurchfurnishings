@@ -1,0 +1,45 @@
+/*navigation.css*/
+    
+/*NAVIGATION----------------------------------------------*/
+    
+ul#navigation{
+	border-top:1px solid #7e6c6c;
+	border-bottom:1px solid #7e6c6c;
+	height:23px;
+	padding:6px 0 0 38px;
+	background:url('../images/nav-gradient.png') repeat-x;
+	list-style:none;
+	position:relative;
+	}
+    
+ul#navigation li{
+	float:left;
+	font-size:15px;
+	border-right:2px solid #842e2f;
+	margin-right:15px;
+	padding-right:15px;
+	}
+    
+ul#navigation li.last{
+	border-right:0px none;
+	margin-right:0px;
+	padding-right:0px;
+	}
+
+ul#navigation li a{
+	color:#fff;
+	text-decoration:none;
+	}
+    
+ul#navigation li a:hover,
+ul#navigation li a.current{
+	color:#f6a82e;
+	}
+
+
+/*-----------------------------------LEFT-NAV--------------------------------------*/
+	
+#left-nav ul li{
+	color:#fff;
+	}
+	

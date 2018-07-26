@@ -14,11 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sanders Church Furnishings
-# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Sanders Church Furnishings - Serving the Country with all its Church needs. With our quality products, we are able to provide your facility with pews, chairs/seating, baptistries, steeples, stained glass, pulpit furniture, furniture refinishing, upholstering, carpet, educational furniture and stained glass restoration.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sanderschurchfurnishings.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sanderschurchfurnishings.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -33,8 +32,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - deploy.sh
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
