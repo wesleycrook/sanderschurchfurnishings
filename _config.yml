@@ -26,14 +26,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
-exclude: ['deploy.sh', 'Gemfile', 'Gemfile.lock']
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - deploy.sh
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
