@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# redirect .php page load to it's equivalent .html file
+RedirectMatch 301 /(.*)\.php /$1.html
