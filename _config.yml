@@ -16,7 +16,7 @@
 title: Sanders Church Furnishings
 description: >- # this means to ignore newlines until "baseurl:"
   Sanders Church Furnishings - Serving the Country with all its Church needs. With our quality products, we are able to provide your facility with pews, chairs/seating, baptistries, steeples, stained glass, pulpit furniture, furniture refinishing, upholstering, carpet, educational furniture and stained glass restoration.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/"
 url: "https://sanderschurchfurnishings.com" # the base hostname & protocol for your site
 
 # Build settings
