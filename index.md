@@ -15,7 +15,7 @@ title: Home
         <h1>Thank you for visiting Sanders Church Furnishings</h1>
         <p><em>"Serving the Country with all its Church needs."</em></p>
         <p>With our quality products, we are able to provide your facility with pews, chairs/seating, baptistries, steeples, stained glass, pulpit furniture, furniture refinishing, upholstering, carpet, educational furniture and stained glass restoration.</p>
-        <p class="last">Please <a href="contact-us.php#request-catalog">click here</a> to jump to the "Request a Catalog" Form on our contact page, or call us directly to make the request.</p>
+        <p class="last">Please <a href="contact-us.html#request-catalog">click here</a> to jump to the "Request a Catalog" Form on our contact page, or call us directly to make the request.</p>
     </div><!--END COL-RIGHT-->
     <br clear="all" />
 </div><!--END CONTENT-->
