@@ -13,6 +13,11 @@ title: About
 
 	    <p>Working with you is a vital part of our plans and future goals. We would like to be part of yours by providing the very best quality products at competitive prices. If you need additional literature would like to see other samples, we will be most happy to meet with you and the church. We know once you see our quality, you will agree as to the value and quality of our complete line of products and service. Call and tell us what other information we can send or to establish a time and date to come. We can bring samples for you to see. There is, of course, no commitment required for our coming. I look forward to hearing from you.</p>
 	    <p class="last">Please <a href="contact-us.html#request-catalog">click here</a> to jump to the "Request a Catalog" Form on our contact page, or call us directly to make the request.</p>
+
+	    site.time = {{ site.time }}
+	    site.time | date:"%Y" = {{ site.time | date:"%Y" }}
+	    site.time | date:"%Y" | minus:1994 = {{ site.time | date:"%Y" | minus:1994 }}
+	    site.time | date:"%Y" | minus:1994 | date:"%Y" = {{ site.time | date:"%Y" | minus:1994 | date:"%Y" }}
 	    
 	</div><!--END COL-RIGHT-->
 	<br clear="all" />
