@@ -31,15 +31,29 @@ ul#navigation li a{
 	text-decoration:none;
 	}
     
-ul#navigation li a:hover,
-ul#navigation li a.current{
-	color:#f6a82e;
-	}
+ul#navigation li a:hover {
+	color: #f6a82e;
+}
+
+body.home ul#navigation li#home a,
+body.about ul#navigation li#about a,
+body.pews ul#navigation li#pews a,
+body.chancel-furniture ul#navigation li#chancel-furniture a,
+body.chairs ul#navigation li#chairs a,
+body.stained-glass ul#navigation li#stained-glass a,
+body.gallery-of-art ul#navigation li#stained-glass a,
+body.restoration-examples ul#navigation li#stained-glass a,
+body.steeples ul#navigation li#steeples a,
+body.baptisteries ul#navigation li#baptisteries a,
+body.services ul#navigation li#services a,
+body.contact-us ul#navigation li#contact-us a {
+	color: #f6a82e;
+}
 
 
 /*-----------------------------------LEFT-NAV--------------------------------------*/
 	
 #left-nav ul li{
 	color:#fff;
-	}
+}
 	
