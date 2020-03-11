@@ -6,7 +6,13 @@
         </div><!--END FOOTER-LEFT-->
         <div id="footer-right">
             <p>Email: <a href="mailto:sanderschurchfurn@gmail.com">sanderschurchfurn@gmail.com</a><br />
-            &copy; Copyright 2007-{{ site.time | date: '%Y' }} Sanders Church Furnishings<br/>
+            <script>
+                // Get current year and echo it to the screen.
+                const date = new Date();
+                const year = date.getFullYear();
+                document.write(`&copy; Copyright 2007-${year}  Sanders Church Furnishings`);
+            </script>
+            <br/>
             <a class="no-under" href="https://maps.google.com/?daddr=1027+Johnstonville+Road+Barnesville+GA+30204" target="_blank">1027 Johnstonville Road, Barnesville, GA 30204</a></p>
         </div><!--END FOOTER-RIGHT-->
     </div><!--END FOOTER-->
