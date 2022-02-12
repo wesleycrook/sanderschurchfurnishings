@@ -96,7 +96,7 @@ table td { text-align: center; padding: 15px; font-size: 14px; vertical-align: m
 /*-------------------------------------
 iframe
 --------------------------------------*/
-iframe { border: 1px dashed #999; width: 90%; height: 1050px; background-color: #efefef; margin-top: 10px; }
+iframe { border: 1px dashed #999; width: 90%; height: 925px; background-color: #efefef; margin-top: 10px; }
 
 iframe.contact { padding: 25px; }
 
