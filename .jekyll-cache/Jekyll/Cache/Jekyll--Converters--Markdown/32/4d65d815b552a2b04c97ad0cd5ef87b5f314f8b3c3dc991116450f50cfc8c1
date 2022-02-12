@@ -1,73 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="Sanders Church Furnishings - Serving the Country with all its Church needs. With our quality products, we are able to provide your facility with pews, chairs/seating, baptistries, steeples, stained glass, pulpit furniture, furniture refinishing, upholstering, carpet, educational furniture and stained glass restoration.">
-    <meta name="keywords" content="church furniture, church furnishings, stained glass, stained glass restoration, altar, communion table, wood altar, wood altars, pulpit, pulpits, lectern, lecterns, wood chairs, padded seats, padded chairs, pew, portable pew, pews, portable pews, arm chair, arm chairs, kneeler, padded kneeler, kneelers, padded kneelers, sanctuary seat, sanctuary seats, sanctuary seating, tabernacle stand, offertory table, tabernacle stands, offertory tables, pedestal, pedestals, urn stand, urn stands, narthex furniture, narthex furnsishings, registration stand, registration stands, baptismal font, baptismal fonts, baptism font, baptism fonts, offering box, offering boxes, envelope box, envelope boxes, deposit box, deposit boxes, pamphlet rack, pamphlet racks, bulletin holder, bulletin holders, holy water font, holy water fonts, music stand, music stands, hymn book rack, hymn book racks, hymn board, hymn boards, hymn board numbers, hymn board letters, sacristy furniture, sacristy furnishings, sanders church furnishings, sanders furnishings, Barnesville, georgia church furnishings, alabama church furnishings, florida church furnishings, Barnesville church furniture">
-
-    <title>Gallery of Art | Sanders Church Furnishings</title>
-
-    <!--BEGIN FONTS FROM GOOGLE-->
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,700' rel='stylesheet' type='text/css'>
-    <!--END FONTS FROM GOOGLE-->
-
-
-    <link rel='stylesheet' type='text/css' href="/assets/reset.css" media="all">
-    <link rel='stylesheet' type='text/css' href="/assets/navigation.css" media="all">
-    <link rel='stylesheet' type='text/css' href="/assets/main.css" media="all">
-
-    <!--BEGIN FANCYBOX CODE-->
-    <link rel='stylesheet' type='text/css' href="/assets/jquery.fancybox-1.3.4.css" media="all">
-    <script type="text/javascript" src="/assets/jquery-1.4.3.min.js"></script>
-    <script type="text/javascript" src="/assets/jquery.fancybox-1.3.4.pack.js"></script>
-    <script type="text/javascript" src="/assets/jquery.mousewheel-3.0.4.pack.js" ></script>
-    <script type="text/javascript" src="/assets/jquery.easing-1.3.pack.js" ></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $("a.iframe, a.fancybox").fancybox({
-                'transitionIn'      : 'elastic',
-                'transitionOut'     : 'elastic',
-                'width'             : 800,
-                'height'            : 700
-            });
-        });
-    </script>
-    <!--END FANCYBOX CODE-->
-    <!--BEGIN GOOGLE ANALYTICS CODE-->
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-10367495-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-
-    </script>
-    <!--END GOOGLE ANALYTICS CODE-->
-</head>
-
-<body class="gallery-of-art">
-    <div id="header">
-        <div id="logo"><a href=/index.html></a></div>
-    </div><!--END HEADER-->
-    <ul id="navigation">
-        <li id="about"><a href="/about.html">About</a></li>
-        <li id="pews"><a href="/pews.html">Pews</a></li>
-        <li id="chancel-furniture"><a href="/chancel-furniture.html">Chancel Furniture</a></li>
-        <li id="chairs"><a href="/chairs.html">Chairs</a></li>
-        <li id="stained-glass"><a href="/stained-glass.html">Stained Glass</a></li>
-        <li id="steeples"><a href="/steeples.html">Steeples</a></li>
-        <li id="baptisteries"><a href="/baptisteries.html">Baptisteries</a></li>
-        <li id="services"><a href="/services.html">Services</a></li>
-        <li id="contact-us" class="last"><a href="/contact-us.html">Contact Us</a></li>
-    </ul><!--END NAVIGATION-->
-
-<div id="canvas">
+I"’<div id="canvas">
 	<div id="col-left">
 		<div id="left-nav">
 	    	<h3>Stained Glass</h3>
@@ -199,26 +130,4 @@
 	<br clear="all" />
 	</div>
 <!--END CONTENT-->
-
-
-    <div id="footer">
-        <div id="footer-left">
-            <p>Please call for more information:<br />
-            <b>Toll Free</b> - <a class="no-under" href="tel:8779228529">(877) 922-8579</a><br />
-            <b>Mobile</b> - <a class="no-under" href="tel:4789548000">(478) 954-8000</a></p>
-        </div><!--END FOOTER-LEFT-->
-        <div id="footer-right">
-            <p>Email: <a href="mailto:sanderschurchfurn@gmail.com">sanderschurchfurn@gmail.com</a><br />
-            <script>
-                // Get current year and echo it to the screen.
-                const date = new Date();
-                const year = date.getFullYear();
-                document.write(`&copy; Copyright 2007-${year}  Sanders Church Furnishings`);
-            </script>
-            <br/>
-            <a class="no-under" href="https://maps.google.com/?daddr=284+Cannafax+Road+Barnesville+GA+30204" target="_blank">284 Cannafax Road, Barnesville, GA 30204</a></p>
-        </div><!--END FOOTER-RIGHT-->
-    </div><!--END FOOTER-->
-
-
-</html>
+:ET
